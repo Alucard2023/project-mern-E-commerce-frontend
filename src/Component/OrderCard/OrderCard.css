@@ -1,0 +1,47 @@
+/* OrderCard.css */
+
+.messageCards {
+    margin: 20px;
+    width: 300px;
+  }
+  
+  .card {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    background-color: #fff;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .forms {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .button-container button {
+    flex: 1;
+    margin-right: 8px;
+  }
+  
+  .button-container button:last-child {
+    margin-right: 0;
+  }
+  
+  .button-container button:hover {
+    background-color: #d9534f; /* Changez la couleur au survol selon vos préférences */
+    border-color: #d9534f;
+    color: #fff;
+  }
+  

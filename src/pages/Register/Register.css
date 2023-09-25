@@ -1,0 +1,100 @@
+/* Reset some default styles */
+body, html, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the whole page */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the form */
+.cadre2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cadres {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+}
+
+/* Style form labels */
+.forms {
+    font-weight: bold;
+}
+
+/* Style form inputs */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+.bouton {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.bouton:hover {
+    background-color: #2980b9;
+}
+
+/* Style the "Already have an account?" text and link */
+.text-muted {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.text-muted a {
+    color: #3498db;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+/* Style the "Back to homepage" button */
+.button-primary {
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.button-primary:hover {
+    background-color: #27ae60;
+}
+
+.eye5 {
+    width: 25px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 80px;
+    padding-left: 200px;
+    margin-top: 200px;
+    margin-top: 38px;
+}

@@ -1,0 +1,23 @@
+/* Order.css */
+
+/* Style pour le titre "ORDERS" */
+.Produit {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Style pour la liste des commandes */
+  .listMessages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Vous pouvez ajouter d'autres styles spécifiques à la liste ici */
+  }
+  
+  /* Style pour chaque carte de commande (utilisez la classe OrderCard pour cibler les enfants) */
+  .OrderCard {
+    background:#fff;
+    /* Styles pour la carte de commande (à personnaliser selon votre composant OrderCard) */
+  }
+  
